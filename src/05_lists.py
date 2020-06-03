@@ -18,7 +18,8 @@ print(x)
 
 # Change x so that it is [1, 2, 3, 4, 9, 10]
 # YOUR CODE HERE
-del(x[4])
+# del(x[4])
+x.pop(4)
 print(x)
 
 # Change x so that it is [1, 2, 3, 4, 9, 99, 10]
